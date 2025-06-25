@@ -4,5 +4,35 @@
 
 /*ajuste color columna izquierda*/
 .bg-primary {
-    background-color: #007bff !important;
+    background-color: #4b6178 !important;
+}
+.progress {
+    background-color: #2b3034 !important;
+}
+
+.progress-bar {
+    background-color: #e7e8e9 !important;
+}
+
+/*ajuste color columna derecha*/
+text-primary {
+    color: #2c353e !important;
+}
+/*efecto para las CARDS*/
+.car{
+    transition: transform 0.3s ease,box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+@media print{
+    .page-break  {
+        page-break-before: always;
+    }
+}
+
+.print{
+    font-size: 90%;
 }
